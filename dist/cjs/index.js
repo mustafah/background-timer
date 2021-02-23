@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BackgroundTimer = void 0;
 var BackgroundTimer = /** @class */ (function () {
     function BackgroundTimer(interval, options) {
         if (options === void 0) { options = {}; }
@@ -117,4 +116,4 @@ var BackgroundTimer = /** @class */ (function () {
     ;
     return BackgroundTimer;
 }());
-exports.BackgroundTimer = BackgroundTimer;
+exports.default = BackgroundTimer;

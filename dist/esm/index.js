@@ -114,4 +114,4 @@ var BackgroundTimer = /** @class */ (function () {
     ;
     return BackgroundTimer;
 }());
-export { BackgroundTimer };
+export default BackgroundTimer;

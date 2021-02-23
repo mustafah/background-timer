@@ -1,6 +1,6 @@
 {
   "name": "background-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Similar to javascript's setTimeout but works well when iPhone/Android goes to sleep on background !",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
