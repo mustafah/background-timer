@@ -5,7 +5,7 @@ export type BackgroundTimerOptions = {
     tickCallback?: (remaining: string, remainingMS: number) => void;
 };
 
-export class BackgroundTimer {
+export default class BackgroundTimer {
 
     private tickingEnabled: boolean;
     private timerID: any;
